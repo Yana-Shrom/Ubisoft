@@ -1,0 +1,154 @@
+@import url(https://db.onlinewebfonts.com/c/75914226e45d53c888d99c55e1033690?family=Ubisoft+Sans+Bold);
+@import url(https://db.onlinewebfonts.com/c/4d1a97eb449e4a6711e2933d11206208?family=Ubisoft+Sans+Regular);
+body{
+    margin: 0;
+    padding: 0;  
+    font-family: "Ubisoft Sans Bold";
+}
+header{
+    background-color: white;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0;
+    padding: 0 30px;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.navbar-right{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.download-btn{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.logo-ubisoft{
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+.logo-ubisoft img{
+    width: 100px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.search-btn{
+    background-color: #000;
+}
+
+.nav-links {
+    overflow: hidden;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin:0;
+}
+.nav-links li a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-links li a:hover{
+    color: #000;
+    background-color: white;
+}
+/* CAROUSEL PART=========================================*/
+.carousel{
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.carousel a img {
+    width: 13%;
+}
+
+.carousel-text {
+    margin: 20rem;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+.carousel-text h3{
+    font-size: 45px;
+}
+.carousel-text p{
+    font-family: "Ubisoft Sans Regular";
+    font-size: 20px;
+    font-weight: normal;
+}
+.carousel button{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(212, 0, 0);
+    border-radius: 25px;
+    height: 3rem;
+    width: 10rem;
+    border: 0px solid;
+}
+
+.carousel button:hover{
+    background-color: white;
+    color: rgb(212, 0, 0);
+    border: 2px solid #000;
+}
+
+.foot-carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.foot-carousel a {
+    color: white;
+    font-size:larger;
+    text-decoration: none;
+}
+
+.foot-carousel .sb-btn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 5px;
+    left: 36%;
+}
+
+.foot-carousel .sb-btn img{
+    width: 75%;
+}
+
+.games-discovery{
+    
+}
