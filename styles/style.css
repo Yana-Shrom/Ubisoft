@@ -150,7 +150,6 @@ header{
 }
 
 .games-discovery{
-    /*je suis ton bébé*/
 }
 
 
@@ -176,11 +175,18 @@ header{
 
 .game {
     width: 200px;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
     padding: 20px;
     text-align: center;
+}
+.game p{
+    text-align: left;
+}
+
+.game img, p{
+    margin: 0;
 }
 
 .game img {
@@ -192,13 +198,17 @@ header{
 
 .game p {
     font-size: 1.1em;
-    margin-bottom: 10px;
+    height: 60px;
 }
 
+.platform-icons{
+    display: flex;
+    justify-content: start;
+}
 .platform-icons img {
     width: 20px;
     height: 20px;
-    margin: 0 5px;
+    padding: 0px 5px;
 }
 
 .view-all {
@@ -212,6 +222,12 @@ header{
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 30px;
     font-weight: bold;
+}
+
+.view-all-btn:hover{
+    border: #e5007d solid 2px;
+    color: #e5007d;
+    background-color: white;
 }
